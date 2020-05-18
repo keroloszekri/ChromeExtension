@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="My Own CSS Framework.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="popup.js" charset="utf-8"></script>
+  <style>
+    @font-face
+    {
+       font-family: newFont;
+        src: url('comic.ttf')
+     }
+    body {
+       font-family: newFont,Tahoma;
+       font-size: 22px;
+       margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .home-section {
+      text-align: center;
+      background-color: #333;
+      color: white;
+      border-radius: 20px;
+    }
+    .data-section{
+      text-align: justify;
+      border-radius: 20px;
+    }
+    
+    ul {
+        list-style-type: none;
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        border-radius: 20px;
+        }
+
+        li {
+        float: left;
+        }
+
+        li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition:all 3s ease;
+        }
+
+        li a:hover {
+        background-color: #37a000;
+        border-radius: 20px;
+        }
+        img {
+             border-radius: 20px;
+             display:block;
+             margin:auto;
+        }
+
+        
+
+  </style>
+</head>
+<body>
+
+    <div class="col-16 home-section">
+      <p>Home Page<br>
+       Email extractor will extract any mail from any web page after it loaded
+      </p>
+    
+    </div>
+
+    <div class="col-16 data-section" id="data">
+      
+    </div>
+
+    <div class="col-16">
+      <ul>
+         <li><a>All rights reserved © 2020</a></li> 
+    </div>
+
+</body>
+</html>
